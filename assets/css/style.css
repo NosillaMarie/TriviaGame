@@ -1,0 +1,81 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+#background {
+    background-image: url(/assets/images/underwater-background-image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+}
+
+#gameStart {
+    width: 600px;
+}
+
+.start {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 25%;
+    padding: 20px;
+}
+
+.trivia {
+    color: white;
+    background-color: transparent;
+    border-radius: 6px;
+    width: 90%;
+    margin: auto;
+    padding-top: 5px;
+    position: relative;
+}
+
+.nextButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    font-family: 'Kaushan Script';
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.question {
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.choiceList {
+    font-family: Courier, serif;
+    color: black;
+}
+
+.questionClass {
+    color: white;
+    font-family: 'Courgette';
+    font-size: 20px;
+    text-align: center;
+}
