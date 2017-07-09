@@ -71,6 +71,10 @@ h1 {
 .choiceList {
     font-family: Courier, serif;
     color: black;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
 }
 
 .questionClass {
@@ -78,4 +82,34 @@ h1 {
     font-family: 'Courgette';
     font-size: 20px;
     text-align: center;
+}
+
+.btn-info {
+    color: white;
+    height: auto;
+    width: 80px;
+    font-family: 'Courgette';
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    box-shadow: 1px 1px 4px #888;
+    border-radius: 3px;
+}
+
+#progressBar {
+  width: 90%;
+  margin: 10px auto;
+  height: 22px;
+  background-color: aqua;
+}
+
+#progressBar div {
+  height: 100%;
+  text-align: right;
+  padding: 0 10px;
+  line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+  width: 0;
+  background-color:cornflowerblue;
+  box-sizing: border-box;
 }
