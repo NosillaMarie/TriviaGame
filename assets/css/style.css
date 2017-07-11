@@ -1,5 +1,6 @@
 body,
 html {
+    width: auto;
     height: 100%;
     margin: 0;
 }
@@ -21,15 +22,11 @@ h1 {
     padding-top: 40px;
 }
 
-#gameStart {
-    width: 600px;
-}
-
-.start {
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    width: 25%;
-    padding: 20px;
+#startMenu {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
 }
 
 .trivia {
@@ -43,7 +40,7 @@ h1 {
 }
 
 .nextButton {
-    box-shadow: 3px 3px 5px #888;
+    box-shadow: 3px 3px 5px cornflowerblue;
     border-radius: 6px;
     width: 150px;
     height: 40px;
@@ -52,14 +49,13 @@ h1 {
     color: black;
     font-family: 'Kaushan Script';
     position: relative;
-    margin: auto;
-    padding-top: 20px;
-    
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 .question {
     font-family: 'Satisfy', cursive;
-    font-size: 20px;
+    font-size: 28px;
     width: 70%;
     height: auto;
     margin: auto;
@@ -68,9 +64,14 @@ h1 {
     text-align: center;
 }
 
+input[type=radio] {
+    margin-right: 10px;
+}
+
 .choiceList {
     font-family: Courier, serif;
-    color: black;
+    font-size: 20px;
+    color: white;
     width: 70%;
     height: auto;
     margin: auto;
@@ -87,29 +88,59 @@ h1 {
 .btn-info {
     color: white;
     height: auto;
-    width: 80px;
+/*    width: 15%;*/
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px;
     font-family: 'Courgette';
     font-size: 20px;
     text-align: center;
-    margin: auto;
-    position: relative;
-    box-shadow: 1px 1px 4px #888;
-    border-radius: 3px;
+    box-shadow: 1px 1px 4px aquamarine;
+    border-radius: 6px;
+}
+
+
+/*
+#dynamic {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    
+}
+#lilFact {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+*/
+
+.result {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px aqua;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+    background-color: aquamarine;
+    color: black;
+    padding: 30px;
 }
 
 #progressBar {
-  width: 90%;
-  margin: 10px auto;
-  height: 22px;
-  background-color: aqua;
+    width: 90%;
+    margin: 10px auto;
+    height: 22px;
+    background-color: aqua;
 }
 
 #progressBar div {
-  height: 100%;
-  text-align: right;
-  padding: 0 10px;
-  line-height: 22px; /* same as #progressBar height if we want text middle aligned */
-  width: 0;
-  background-color:cornflowerblue;
-  box-sizing: border-box;
+    height: 100%;
+    text-align: right;
+    padding: 0 10px;
+    line-height: 22px;
+    /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
 }
