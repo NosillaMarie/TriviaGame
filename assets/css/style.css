@@ -6,7 +6,7 @@ html {
 }
 
 #background {
-    background-image: url(../../assets/images/underwater-background-image.jpg);
+    background-image: url("../../assets/images/underwater-background-image.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
